@@ -22,7 +22,7 @@ header nav{
     font-size: 16px;
     position: fixed; /* que las pestañitas de navegacion el sitio se sigan viendo  */
     z-index: 1;
-
+    background-color: white;
 }
 
 #pinterest-icon{
