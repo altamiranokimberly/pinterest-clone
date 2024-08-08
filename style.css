@@ -140,10 +140,10 @@ header nav{
 
 
 .card-image:hover > :first-child{
-    filter: brightness(60%);
+    filter: brightness(60%);/*sombra al pasar el mouse por la imagen*/
 }
 
-.card-image:hover > * {
+.card-image:hover > * { /*el universal para decir todo lo que está dentro*/
     visibility: visible;
     display: inline;
 }
@@ -152,8 +152,8 @@ header nav{
 .button{
     position: absolute;
     left: 53%; /*para la posicion de guardar*/
-    top: 5%;
-    padding: 13px 15px;
+    top: 5%; /*para que baje un poco de posicion*/
+    padding: 13px 15px; /*para lo que rodea el boton guardar, contenedor*/
     background-color: #e60023;
     border-radius: 30px;
     border: none;
